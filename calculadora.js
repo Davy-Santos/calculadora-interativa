@@ -3,8 +3,7 @@ inter.addEventListener('mouseout', sair)
 
 
 
-function sair(){
-    inter.style.backgroundColor = 'brown'}
+
 
 function enviar(){
     var n1 = Number.parseInt (window.document.getElementById('n1').value)
