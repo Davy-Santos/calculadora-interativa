@@ -40,7 +40,6 @@ input, select {
   #hora{
     background-color: rgb(223, 140, 17);
     max-width: 60px;
-    border-radius: 30%;
     color: black;
     font: normal 100pt;
     margin: 7px;
