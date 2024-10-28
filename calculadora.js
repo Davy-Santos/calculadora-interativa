@@ -1,10 +1,3 @@
-var inter = window.document.getElementById('inter')
-inter.addEventListener('mouseout', sair)
-
-
-
-
-
 function enviar(){
     var n1 = Number.parseInt (window.document.getElementById('n1').value)
     var n2 = Number.parseInt (window.document.querySelector('input#n2').value)
