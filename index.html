@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <fieldset id="inter">
+    <input type="number" name="n1" id="n1"> 
+    <select name="operador" id="operador">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" name="n2" id="n2">
+    <br/>
+    <input id="btn" type="button" value="Enviar" onclick="enviar()">
+    <!--div#idvalue + tab cria uma div com id-->
+    <div id="res">Resultado!</div>
+   <strong><p id="ip"></p></strong>
+   <p id="hora"></p>
+    </fieldset>
+<script src="../Js/calculadora.js"></script>
+</body>
+</html>
