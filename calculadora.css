@@ -50,6 +50,79 @@ input, select {
   }
   #num1{
     background-color: chartreuse;
+   
+
+   
+
+  }
+  #num2{
+    background-color: chartreuse;
+    
+  }
+  
+  #num3{
+    background-color: chartreuse;
+   
+  }
+  #num4{
+    background-color: chartreuse;
+    
+  }
+  #num5{
+    background-color: chartreuse;
+  
+  }
+  #num6{
+    background-color: chartreuse;
+   
+  }
+  #num7{
+    background-color: chartreuse;
+   
+  }
+  #num8{
+    background-color: chartreuse;
+    
+  }
+  #num9{
+    background-color: chartreuse;
+   
+  }
+  #num0{
+    background-color: chartreuse;
+   
+  }
+
+ 
+  
+
+  }
+  fieldset{
+    margin: 0;
+    padding: 10px; /* opcional: ajuste de preenchimento interno */
+    border: 1px solid #000; /* opcional: ajuste da borda */
+    width: 100%; /* ou ajuste conforme necessário */
+    box-sizing: border-box; /* Garante que a largura leve a borda em consideração */
+     height: 800px;
+     background-color: brown;
+    
+     
+
+  
+  }
+  #hora{
+    background-color: rgb(223, 140, 17);
+    max-width: 60px;
+  
+    color: black;
+    font: normal 100pt;
+    margin: 7px;
+  }
+  h1:hover{
+    background-color: blue;
+  }
+  #num1{
+    background-color: chartreuse;
     font-size: xx-large;
 
    
