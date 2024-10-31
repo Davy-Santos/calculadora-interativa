@@ -40,6 +40,7 @@ input, select {
   #hora{
     background-color: rgb(223, 140, 17);
     max-width: 60px;
+  
     color: black;
     font: normal 100pt;
     margin: 7px;
@@ -47,3 +48,45 @@ input, select {
   h1:hover{
     background-color: blue;
   }
+  #num1{
+    background-color: chartreuse;
+   font-size: xx-large;
+  }
+  #num2{
+    background-color: chartreuse;
+   font-size: xx-large;
+  }
+  
+  #num3{
+    background-color: chartreuse;
+   font-size: xx-large;
+  }
+  #num4{
+    background-color: chartreuse;
+   font-size: xx-large;
+  }
+  #num5{
+    background-color: chartreuse;
+   font-size: xx-large;
+  }
+  #num6{
+    background-color: chartreuse;
+   font-size: xx-large;
+  }
+  #num7{
+    background-color: chartreuse;
+   font-size: xx-large;
+  }
+  #num8{
+    background-color: chartreuse;
+   font-size: xx-large;
+  }
+  #num9{
+    background-color: chartreuse;
+   font-size: xx-large;
+  }
+  #num0{
+    background-color: chartreuse;
+   font-size: xx-large;
+  }
+
