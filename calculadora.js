@@ -1,10 +1,27 @@
 
+let activeInput = null;
+
+// Função para adicionar número ao campo ativo
+function addNumber(num) {
+    if (activeInput) {
+        activeInput.value += num;
+    }
+}
+
+// Eventos para definir o campo ativo
+document.getElementById('n1').addEventListener('focus', () => {
+    activeInput = document.getElementById('n1');
+});
+document.getElementById('n2').addEventListener('focus', () => {
+    activeInput = document.getElementById('n2');
+});
 function enviar(){
     var n1 = Number(window.document.getElementById('n1').value)
     var n2 = Number(window.document.querySelector('input#n2').value)
     var result = window.document.getElementById('res').value
     var oper = window.document.getElementById('operador').value
     var ip = window.document.getElementById('ip')
+    
    
     if(oper === '+'){
     result = n1 + n2
@@ -32,7 +49,9 @@ else if (oper ==='-'){
         else{
             ip.innerHTML = `${result} é um número impar`
             inter.style.backgroundColor = 'red'
-        }  } 
+        }
+       
+         } 
 
       function atualizarHora(){
 var Phora = window.document.getElementById('hora')
@@ -49,6 +68,12 @@ if(hora == '12' && min == '00' && sec <= '7' || hora == '20' && min == '12' && s
 }
     else{
         Phora.innerHTML = `${hora}:${min}:${sec} `
- }}
+
+    }
+
+
+}
+
 setInterval(atualizarHora, 1000) //(function, delay) delay: O intervalo de tempo em milissegundos entre cada execução da função. No seu caso, o valor 1000 significa que a função será chamada a cada 1 segundo (1000 milissegundos = 1 segundo).
 atualizarHora()
+
