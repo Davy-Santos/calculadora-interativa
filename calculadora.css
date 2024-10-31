@@ -91,3 +91,164 @@ input, select {
     background-color: chartreuse;
     font-size: 80px;
   }
+
+  @media (min-width: 768px) {
+    /* Quando a largura da tela for 768px ou maior */
+    #num1{
+      background-color: chartreuse;
+      font-size: xx-large;
+
+     
+  
+    }
+    #num2{
+      background-color: chartreuse;
+      font-size: xx-large;
+    }
+    
+    #num3{
+      background-color: chartreuse;
+      font-size: xx-large;
+    }
+    #num4{
+      background-color: chartreuse;
+      font-size: xx-large;
+    }
+    #num5{
+      background-color: chartreuse;
+      font-size: xx-large;
+    }
+    #num6{
+      background-color: chartreuse;
+      font-size: xx-large;
+    }
+    #num7{
+      background-color: chartreuse;
+      font-size: xx-large;
+    }
+    #num8{
+      background-color: chartreuse;
+      font-size: xx-large;
+    }
+    #num9{
+      background-color: chartreuse;
+      font-size: xx-large;
+    }
+    #num0{
+      background-color: chartreuse;
+     font-size: xx-large;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Quando a largura da tela for 1024px ou maior */
+    #num1{
+      background-color: chartreuse;
+      font-size: 80px;
+     
+  
+    }
+    #num2{
+      background-color: chartreuse;
+      font-size: 80px;
+    }
+    
+    #num3{
+      background-color: chartreuse;
+      font-size: 80px;
+    }
+    #num4{
+      background-color: chartreuse;
+      font-size: 80px;
+    }
+    #num5{
+      background-color: chartreuse;
+      font-size: 80px;
+    }
+    #num6{
+      background-color: chartreuse;
+      font-size: 80px;
+    }
+    #num7{
+      background-color: chartreuse;
+      font-size: 80px;
+    }
+    #num8{
+      background-color: chartreuse;
+     font-size: 80px;
+    }
+    #num9{
+      background-color: chartreuse;
+      font-size: 80px;
+    }
+    #num0{
+      background-color: chartreuse;
+      font-size: 80px;}}
+  }
+  fieldset{
+    margin: 0;
+    padding: 10px; /* opcional: ajuste de preenchimento interno */
+    border: 1px solid #000; /* opcional: ajuste da borda */
+    width: 100%; /* ou ajuste conforme necessário */
+    box-sizing: border-box; /* Garante que a largura leve a borda em consideração */
+     height: 800px;
+     background-color: brown;
+    
+     
+
+  
+  }
+  #hora{
+    background-color: rgb(223, 140, 17);
+    max-width: 60px;
+  
+    color: black;
+    font: normal 100pt;
+    margin: 7px;
+  }
+  h1:hover{
+    background-color: blue;
+  }
+  #num1{
+    background-color: chartreuse;
+    font-size: 80px;
+   
+
+  }
+  #num2{
+    background-color: chartreuse;
+    font-size: 80px;
+  }
+  
+  #num3{
+    background-color: chartreuse;
+    font-size: 80px;
+  }
+  #num4{
+    background-color: chartreuse;
+    font-size: 80px;
+  }
+  #num5{
+    background-color: chartreuse;
+    font-size: 80px;
+  }
+  #num6{
+    background-color: chartreuse;
+    font-size: 80px;
+  }
+  #num7{
+    background-color: chartreuse;
+    font-size: 80px;
+  }
+  #num8{
+    background-color: chartreuse;
+   font-size: 80px;
+  }
+  #num9{
+    background-color: chartreuse;
+    font-size: 80px;
+  }
+  #num0{
+    background-color: chartreuse;
+    font-size: 80px;
+  }
