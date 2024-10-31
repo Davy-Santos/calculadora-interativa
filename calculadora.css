@@ -92,7 +92,7 @@ input, select {
     font-size: 80px;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 255px) {
     /* Quando a largura da tela for 768px ou maior */
     #num1{
       background-color: chartreuse;
