@@ -1,4 +1,5 @@
 
+
 let activeInput = null;
 
 // Função para adicionar número ao campo ativo
@@ -76,4 +77,3 @@ if(hora == '12' && min == '00' && sec <= '7' || hora == '20' && min == '12' && s
 
 setInterval(atualizarHora, 1000) //(function, delay) delay: O intervalo de tempo em milissegundos entre cada execução da função. No seu caso, o valor 1000 significa que a função será chamada a cada 1 segundo (1000 milissegundos = 1 segundo).
 atualizarHora()
-
