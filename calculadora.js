@@ -1,21 +1,3 @@
-
-let activeInput = null;
-
-// Função para adicionar número ao campo ativo
-function addNumber(num) {
-    if (activeInput) {
-        activeInput.value += num;
-    }
-}
-
-// Eventos para definir o campo ativo
-document.getElementById('n1').addEventListener('focus', () => {
-    activeInput = document.getElementById('n1');
-});
-document.getElementById('n2').addEventListener('focus', () => {
-    activeInput = document.getElementById('n2');
-});
-
     function preventDefault(){
         // Adiciona um ouvinte de evento ao campo de entrada 'n1' que será ativado quando o usuário pressionar uma tecla
 document.getElementById('n1').addEventListener('keypress', function (event) {
