@@ -105,15 +105,20 @@ function atualizarHora() {
     var hora = agora.getHours();
     var min = agora.getMinutes();
     var sec = agora.getSeconds();
+    hora = hora < 10 ? "0" + hora : hora;
     min = min < 10 ? "0" + min : min;
     sec = sec < 10 ? "0" + sec : sec;
     Phora.innerHTML = `${hora}:${min}:${sec} `;
 
-    if (hora == '12' && min == '00' && sec <= '7' || hora == '20' && min == '12' && sec <= '7') {
-        Phora.innerHTML = 'Olá!';
-    } else {
-        Phora.innerHTML = `${hora}:${min}:${sec} `;
-    }
+    if(hora >= 0 && hora<12){
+        turn.innerHTML = 'Bom dia!'
+         }
+         else if(hora >= 12 && hora < 18){
+         turn.innerHTML = 'Boa tarde!'
+         }
+         else {
+         turn.innerHTML = 'Boa Noite'
+         }
 }
 
 
