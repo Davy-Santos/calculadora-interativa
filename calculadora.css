@@ -77,3 +77,15 @@ input, select {
     label{
       font-size: 12pt;
     }
+
+    @media (max-width: 500px) {
+      section, input {
+        width: 300px;
+      }
+    
+      #res, #ip {
+        font-size: 12pt; 
+      }
+    }
+    
+   
