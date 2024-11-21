@@ -27,6 +27,9 @@ input, select {
   
 
   }
+  #turn{
+    margin: 7px;
+  }
  
   #hora{
     background-color: #B4182D;
