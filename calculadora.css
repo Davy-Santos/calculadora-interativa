@@ -80,7 +80,7 @@ input, select {
 
     @media (max-width: 500px) {
       section, input {
-        width: 290px;
+        width: 260px;
       }
     
       #res, #ip {
