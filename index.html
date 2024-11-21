@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="calculadora.css">
+    <link rel="stylesheet" href="../CSS/calculadora.css">
     <title>Calculadora</title>
 </head>
 <body>
     <h1>Calculadora</h1>
-    <fieldset id="inter">
+   
+    <section  >
+        <div id = "dados">
+            <label>Digite um número:</label>
     <input type="number" name="n1" id="n1"> 
-    <select name="operador" id="operador">
+    <br/>
+    <select name="operador" id="operador" onchange="AjustarOperador()">
+        <option value="op">Selecione um operador</option>
         <option value="+">+</option>
         <option value="-">-</option>
         <option value="*">*</option>
         <option value="/">/</option>
-    </select>
+     </select>
+    <br/>
+  
+    <label>Digite um número:</label>
     <input type="number" name="n2" id="n2">
     <br/>
     <input id="btn" type="button" value="Calcular" onclick="enviar()">
@@ -23,8 +31,12 @@
     <div id="res"></div>
    <strong><p id="ip"></p></strong>
    <p id="hora"></p>
-    </fieldset>
-<script src="calculadora.js"></script>
+   <p id="turn"></p>
+</section>
+   
+   <footer>&copy; Davy_Santos</footer>
+    
+<script src="../Js/calculadora.js"></script>
 </body>
 
 </html>
