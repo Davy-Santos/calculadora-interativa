@@ -5,18 +5,21 @@ input, select {
  }
 #btn{
     font: normal 10pt Arial;
-    background-color: blue;
-    color: rgb(255, 243, 132);
+    background-color: #FDA481;
+    color: black;
+    width: 80px;
   }
   body{
-    background-color: rgb(235, 232, 238);
+    background-color: #37415C;
     margin: 0%;
     padding: 0%;
  
   
   }
   h1{
-    background-color: blueviolet;
+    text-align: center;
+    color: #FDA481;
+    background-color: #B4182D;
     margin: 0%;
     padding: 0%;
     font: normal 30pt ;
@@ -24,73 +27,53 @@ input, select {
   
 
   }
-  fieldset{
-    margin: 0;
-    padding: 10px; /* opcional: ajuste de preenchimento interno */
-    border: 1px solid #000; /* opcional: ajuste da borda */
-    width: 100%; /* ou ajuste conforme necessário */
-    box-sizing: border-box; /* Garante que a largura leve a borda em consideração */
-     height: 800px;
-     background-color: brown;
-    
-     
-
-  
-  }
+ 
   #hora{
-    background-color: rgb(223, 140, 17);
+    background-color: #B4182D;
     max-width: 60px;
-  
-    color: black;
+    color: #FDA481;
     font: normal 100pt;
     margin: 7px;
   }
-  h1:hover{
-    background-color: blue;
-  }
-  #num1{
-    background-color: chartreuse;
-   
-
-   
-
-  }
-  #num2{
-    background-color: chartreuse;
-    
-  }
-  
-  #num3{
-    background-color: chartreuse;
-   
-  }
-  #num4{
-    background-color: chartreuse;
-    
-  }
-  #num5{
-    background-color: chartreuse;
-  
-  }
-  #num6{
-    background-color: chartreuse;
-   
-  }
-  #num7{
-    background-color: chartreuse;
-   
-  }
-  #num8{
-    background-color: chartreuse;
-    
-  }
-  #num9{
-    background-color: chartreuse;
-   
-  }
-  #num0{
-    background-color: chartreuse;
-   
-  }
-
  
+ 
+  input{
+    color: white ;
+    background-color: #B4182D;
+    width: 400px;
+  
+  }
+  #operador {
+   background-color: #FDA481;
+
+  
+
+  }
+  #res{
+    color: black;
+  }
+ 
+  #ip{
+    color: black;
+  }
+  footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 16pt;
+}
+  
+  section{
+    background: white;
+    border-radius: 6%;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px  black;
+    height: 300px;
+    margin-top: 80px;
+    }
+
+    label{
+      font-size: 12pt;
+    }
