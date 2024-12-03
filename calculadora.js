@@ -117,7 +117,7 @@ function atualizarHora() {
          turn.innerHTML = 'Boa tarde!'
          }
          else {
-         turn.innerHTML = 'Boa Noite'
+         turn.innerHTML = 'Boa Noite!'
          }
 }
 
