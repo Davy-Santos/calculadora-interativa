@@ -111,13 +111,13 @@ function atualizarHora() {
     Phora.innerHTML = `${hora}:${min}:${sec} `;
 
     if(hora >= 0 && hora<12){
-        turn.innerHTML = 'Bom dia!'
+        turn.innerHTML = 'Bom dia!';
          }
          else if(hora >= 12 && hora < 18){
-         turn.innerHTML = 'Boa tarde!'
+         turn.innerHTML = 'Boa tarde!';
          }
          else {
-         turn.innerHTML = 'Boa Noite!'
+         turn.innerHTML = 'Boa Noite!';
          }
 }
 
